@@ -1,0 +1,25 @@
+source ~/.vim/bundles.vim
+syntax on
+set encoding=utf-8
+set langmenu=zh_CN.utf-8
+language message zh_CN.UTF-8
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+set fileencodings=utf-8,gb18030,gbk,gb2312,big5,euc-jp,euc-kr,cp936,ucs-bom,latin1 
+
+set autoindent
+set autoread
+set backspace=indent,eol,start 
+set cindent
+set cursorline
+set directory=$HOME/.vimswp,.,$TEMP
+set display+=lastline
+set guioptions-=T
+set helplang=cn
+set hlsearch
+set is
+set nocp
+set nu
+
+colorscheme molokai
+let g:vim_markdown_folding_disabled=1

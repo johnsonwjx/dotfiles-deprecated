@@ -1,0 +1,26 @@
+"*":
+  "exception-reporting":
+    userId: "f9a164cf-2f9f-0c0e-0f1e-b635ccee5464"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    invisibles: {}
+  "vim-mode": {}
+  "one-dark-ui": {}
+  "atom-beautify":
+    _analyticsUserId: "b07212ca-e376-402b-8ef2-f7e2d62a890d"
+  linter:
+    showErrorPanel: false
+  "sync-settings":
+    _analyticsUserId: "7780aa91-9a39-404c-a763-387bd23a0a20"
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "git-diff": true
+      linter: true
+      "highlight-selected": true
